@@ -1,6 +1,8 @@
 #include "http-server.h"
 #include <string.h>
 
+int num = 0;
+
 char const HTTP_404_NOT_FOUND[] = "HTTP/1.1 404 Not Found\r\nContent-Type: text/plain\r\n\r\n";
 char const HTTP_200_PAGE_FOUND[] = "HTTP/1.1 200 OK\r\nContent-Type: test/plain\r\n\r\n";
 
